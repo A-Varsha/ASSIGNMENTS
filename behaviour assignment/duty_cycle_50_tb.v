@@ -26,7 +26,7 @@ duty_cycle_50 utt(.oscillate(oscillate));
 initial begin
 oscillate=1'b0;
 forever begin
-#30 oscillate = ~oscillate ;
+#10 oscillate = ~oscillate ;
 end
 end
 endmodule
